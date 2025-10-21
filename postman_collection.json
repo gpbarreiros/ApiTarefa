@@ -1,0 +1,51 @@
+{
+  "info": {
+    "name": "Tarefa API - Collection",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Criar Tarefa",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\"nome\": \"Trabalho Back-end - Gabriella Pereira Barreiros - RU:4762792\", \"dataEntrega\": \"2025-10-18\", \"responsavel\": \"Gabriella Pereira Barreiros - RU:4762792\"}"
+        },
+        "url": {
+          "raw": "http://localhost:8080/api/tarefas",
+          "host": [
+            "http://localhost:8080"
+            
+          ],
+          "path": [
+            "api",
+            "tarefas"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Listar Tarefas",
+      "request": {
+        "method": "GET",
+        "url": {
+          "raw": "http://localhost:8080/api/tarefas",
+          "host": [
+            "http://localhost:8080"
+          ],
+          "path": [
+            "api",
+            "tarefas"
+          ]
+        }
+      }
+    }
+  ]
+}
