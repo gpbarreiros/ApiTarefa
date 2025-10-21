@@ -31,4 +31,5 @@ A aplicação roda em `http://localhost:8080`.
 { "nome":"Trabalho Back-end - Gabriella Pereira Barreiros - RU:4762792", "dataEntrega":"2025-10-20", "responsavel":"Gabriella Pereira Barreiros - RU:4762792" }
 ```
 
-
+## Testes / Evidências
+Dentro da pasta `evidences/` há 4 imagens (inserção, listagem, atualização, remoção) contendo o nome e RU exigidos pelo trabalho.
